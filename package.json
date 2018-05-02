@@ -2,6 +2,19 @@
   "name": "crypix",
   "version": "1.0.2",
   "description": "",
-  "main": "index.js",
-  "author": "Devin Roche <roche.devin@ymail.com>"
+  "main": "src/index.js",
+  "author": "Devin Roche <roche.devin@ymail.com> (devinroche.com)",
+  "keywords": [
+    "crypto",
+    "cryptocurrencies",
+    "cryptocoins",
+    "list"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "1.0.0-beta.4"
+  }
 }
