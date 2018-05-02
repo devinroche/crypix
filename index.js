@@ -1,9 +1,9 @@
 'use strict';
 
-const coinPix = require('./data.json')
+const coins = require('./data.json')
 
 coinPix.allTokens = () => {
-    return coinPix
+    return coins
 }
 
 coinPix.getToken = (symbol) => {
