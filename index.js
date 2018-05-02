@@ -1,8 +1,13 @@
 'use strict';
 
-const coins = require('./data.json')
+const coinPix = require('./data.json')
 
 coinPix.allTokens = () => {
+    let coins = coinPix
+    
+    delete coins.allTokens
+    delete coins.getToken
+
     return coins
 }
 
