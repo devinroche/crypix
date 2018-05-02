@@ -2,8 +2,6 @@
 
 > comprehensive list of cryptocurrencies with image urls.
 
-[![npm](https://img.shields.io/npm/dt/express.svg)](https://www.npmjs.com/package/crypix)
-
 Gathered image urls through coinmarketcap for top 300 cryptos. Can be used as a JSON file or npm library.
 
 ## install
